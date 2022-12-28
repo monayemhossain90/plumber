@@ -1,0 +1,8 @@
+.password {
+  position: relative;
+}
+
+.show-pass {
+  position: absolute;
+  right: 5px;
+}

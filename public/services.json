@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "name": "Residential Plumbing",
+
+    "description": "Capture your best moment with your life partner. And make your special day memorable. I will be your best weeding photographer",
+    "img": "https://i.ibb.co/Qjmrxs3/photo-a.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Commercial Plumbing",
+  
+    "description": "Any family event is important. Capture your enjoyable family moment with me. So that your next generation see this.",
+    "img": "https://i.ibb.co/C7mdtHy/photo-b.jpg"
+   
+  },
+  {
+    "id": 3,
+    "name": "Drain Clearence",
+    "description": "Many time you arrange a event in your classroom with your friends, classmate, senior, junior. And this very important ",
+    "img": "https://i.ibb.co/RN7ZPhQ/photo-c.jpg"
+  }
+]
+
