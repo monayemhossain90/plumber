@@ -57,7 +57,7 @@ const Login = () => {
 
   return (
     <div className='container w-25 mx-auto m-5 shadow' style={{ 'minWidth': '350px' }}>
-      <h2 className="text-center text-success">Please Login</h2>
+      <h2 className="text-center text-primary">Please Login</h2>
       <Form onSubmit={handleLogin}>
         <Form.Group className="mb-3" >
           <Form.Control ref={emailRef} type="email" placeholder="Enter email" id="email" required />
@@ -68,13 +68,13 @@ const Login = () => {
           <Form.Check onClick={handleShowPassword} className='show-pass' type="checkbox" label="Show" />
         </Form.Group>
        
-        <Button className='w-100' variant="success" type="submit">
+        <Button className='w-100' variant="primary" type="submit">
           Login
         </Button>
       </Form>
       {errorElement}
   
-      <p>New to Plumber? <Link to='/register' className='text-success text-decoration-none' onClick={navigateRegister}>Please Register</Link></p>
+      <p>New to Plumber? <Link to='/register' className='text-primary text-decoration-none' onClick={navigateRegister}>Please Register</Link></p>
       <SocialLogin></SocialLogin>
       <ToastContainer />
     </div>
