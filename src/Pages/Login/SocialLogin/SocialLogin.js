@@ -4,8 +4,6 @@ import { useNavigate } from 'react-router-dom';
 import auth from '../../../firebase.init';
 import './SocialLogin.css';
 import google from '../../../images/social/google.png';
-import facebook from '../../../images/social/facebook2.png';
-import github from '../../../images/social/github.png';
 import Loading from '../../Shared/Loading/Loading';
 
 const SocialLogin = () => {
