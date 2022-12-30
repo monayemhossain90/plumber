@@ -13,25 +13,6 @@ const firebaseConfig = {
   appId: process.env.REACT_APP_APP_ID,
 };
 
-// const firebaseConfig = {
-//   apiKey:"AIzaSyCMvzKu-a1CCK91FDT2t5ZLG8z5tbo_P6Q",
-//   authDomain:"independent-service-prov-7c1de.firebaseapp.com",
-//   projectId:"independent-service-prov-7c1de",
-//   storageBucket:"independent-service-prov-7c1de.appspot.com",
-//   messagingSenderId:"35105848335",
-//   appId:"1:35105848335:web:73a052aa8813afe270f77a",
-// };
-
-
-// const firebaseConfig = {
-//   apiKey:"AIzaSyDbfj6pueH4mBKSyb95NJaSBH4rMk8HKCE",
-//   authDomain:"plumber-615a2.firebaseapp.com",
-//   projectId:"plumber-615a2",
-//   storageBucket:"plumber-615a2.appspot.com",
-//   messagingSenderId:"316971021036",
-//   appId:"1:316971021036:web:958963f2f23d0052efebc9",
-// };
-
 
 
 // Initialize Firebase
